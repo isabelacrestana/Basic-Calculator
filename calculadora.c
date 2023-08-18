@@ -44,7 +44,7 @@ float ad(float v1, float v2)
 
 float sub(float v1, float v2)
 {
-    printf("Subtraindo\n");
+    return(v1-v2);
 }
 
 float multi(float v1, float v2)
