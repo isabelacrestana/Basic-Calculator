@@ -39,7 +39,7 @@ int main()
 
 float ad(float v1, float v2)
 {
-    printf("Somando\n");
+    return(v1+v2);
 }
 
 float sub(float v1, float v2)
