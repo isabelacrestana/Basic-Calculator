@@ -1,0 +1,1 @@
+Rascunho para o estudo do uso de GitFlow.
