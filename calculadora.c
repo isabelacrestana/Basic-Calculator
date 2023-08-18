@@ -14,12 +14,15 @@ int main()
     char op;
 
     printf("Calculadora iniciada!\n\n");
-    printf("Insira o 1º valor: ");
+    printf("Insira o 1o valor: ");
+    scanf("%f",&v1);
+    fflush(stdin);
 
-    printf("Selecione a operação(+,-,*,/): ");
+    printf("Selecione a operacao(+,-,*,/): ");
     op=getchar();
 
-    printf("Insira o 2º valor: ");
+    printf("Insira o 2o valor: ");
+    scanf("%f",&v2);
 
     switch(op)
     {
@@ -36,12 +39,12 @@ int main()
 
 float ad(float v1, float v2)
 {
-    printf("Somando\n");
+    return(v1+v2);
 }
 
 float sub(float v1, float v2)
 {
-    printf("Subtraindo\n");
+    return(v1-v2);
 }
 
 float multi(float v1, float v2)
