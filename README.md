@@ -3,4 +3,6 @@
 <br>
 Versão atual:<br>
 > soma<br>
-> subtração
+> subtração<br>
+> multiplicação<br>
+> divisão
