@@ -54,5 +54,8 @@ float multi(float v1, float v2)
 
 float divi(float v1, float v2)
 {
-    return(v1/v2);
+    if(v2==0)
+        printf("Impossível dividir por 0!\n");
+    else
+        return(v1/v2);
 }
