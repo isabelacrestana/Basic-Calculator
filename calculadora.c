@@ -14,12 +14,15 @@ int main()
     char op;
 
     printf("Calculadora iniciada!\n\n");
-    printf("Insira o 1º valor: ");
+    printf("Insira o 1o valor: ");
+    scanf("%f",&v1);
+    fflush(stdin);
 
-    printf("Selecione a operação(+,-,*,/): ");
+    printf("Selecione a operacao(+,-,*,/): ");
     op=getchar();
 
-    printf("Insira o 2º valor: ");
+    printf("Insira o 2o valor: ");
+    scanf("%f",&v2);
 
     switch(op)
     {
